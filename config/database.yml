@@ -1,0 +1,23 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: 5
+  username: martin
+  password: pwd123
+
+development:
+  <<: *default
+  database: site_stats_development
+
+test:
+  <<: *default
+  database: site_stats_test
+
+#production:
+#  <<: *default
+#  database: site_stats_production
+#  username: site_stats
+#  password: <%= ENV['SITE_STATS_DATABASE_PASSWORD'] %>
