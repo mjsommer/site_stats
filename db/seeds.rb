@@ -35,7 +35,6 @@ days = {
   12 => DateTime.now - 11.day
 }
 
-
 # Populate data
 1000000.times do
   url = urls[rand(1..6)]
