@@ -21,18 +21,18 @@ referrers = {
 
 # A set of 10 consecutive days, plus 2 for testing query limits
 days = {
-  1 => DateTime.now - 1.day,
-  2 => DateTime.now - 2.day,
-  3 => DateTime.now - 3.day,
-  4 => DateTime.now - 4.day,
-  5 => DateTime.now - 5.day,
-  6 => DateTime.now - 6.day,
-  7 => DateTime.now - 7.day,
-  8 => DateTime.now - 8.day,
-  9 => DateTime.now - 9.day,
-  10 => DateTime.now - 10.day,
-  11 => DateTime.now - 11.day,
-  12 => DateTime.now - 12.day
+  1 => DateTime.now,
+  2 => DateTime.now - 1.day,
+  3 => DateTime.now - 2.day,
+  4 => DateTime.now - 3.day,
+  5 => DateTime.now - 4.day,
+  6 => DateTime.now - 5.day,
+  7 => DateTime.now - 6.day,
+  8 => DateTime.now - 7.day,
+  9 => DateTime.now - 8.day,
+  10 => DateTime.now - 9.day,
+  11 => DateTime.now - 10.day,
+  12 => DateTime.now - 11.day
 }
 
 
