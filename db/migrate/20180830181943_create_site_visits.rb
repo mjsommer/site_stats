@@ -8,6 +8,8 @@ Sequel.migration do
       text :referrer
       DateTime :created_at, null: false
       column :hash, "char(32)", null: false
+
+      index :url
     end
   end
 end

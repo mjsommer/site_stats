@@ -12,6 +12,8 @@ Sequel.migration do
       column :referrer, "text"
       column :created_at, "timestamp without time zone", :null=>false
       column :hash, "character(32)", :null=>false
+      
+      index [:url]
     end
   end
 end
