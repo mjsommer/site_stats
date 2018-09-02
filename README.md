@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample API app.
 
-Things you may want to cover:
+Setup: Run 'db:drop db:create db:migrate db:seed', to build the db, and generate 1M rows of data.
 
-* Ruby version
+API:
 
-* System dependencies
+1) Number of page views per URL, grouped by day, for the past 5 days: http://localhost:3000/top_urls
 
-* Configuration
+2) Top 5 referrers, for the top 10 URLs grouped by day, for the past 5 days: http://localhost:3000/top_referrers
 
-* Database creation
+Requirements:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ - Rails 5
+ - Postgres
